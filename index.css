@@ -68,15 +68,15 @@ a {
 .hero #placeholder {
     color: #E5E7EB;
     display: flex;
-    background-color: gray;
     justify-content: center;
     align-items: center;
     flex: 1;
-    height: 250px;
-
 }
- #placeholder {
-    text-align: center;
+
+ #placeholder img {
+    height: 500px;
+    border: solid 5px #3882F6;
+    border-radius: 15px;
  }
 
 .hero .container {
@@ -101,6 +101,8 @@ button {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
 
 }
 .container .information-title {
@@ -118,24 +120,48 @@ h1 {
 
 .info-cards {
     display: flex;
-    justify-content: space-evenly;
-    gap: 48px;
-    
+    gap: 10em;;
+    margin: 0px 50px;
 
 }
 .img-container {
-    border: solid 3px #3882F6;;
-    border-radius: 12px;
-    height: 150px;
-    width: 150px;
     display: flex;
-    align-items: baseline;
+    justify-content: space-evenly;
 }
 
+#small-dog {
+    height: 200px;
+    border: solid 3px #3882F6;;
+    border-radius: 12px;
+
+}
+
+#large-dog {
+    height: 200px;
+    border: solid 3px #3882F6;;
+    border-radius: 12px;
+    
+}
+
+#dog-bed {
+    height: 200px;
+    border: solid 3px #3882F6;;
+    border-radius: 12px;
+   
+}
+
+#sweater {
+    display:flex;
+    height: 200px;
+    border: solid 3px #3882F6;;
+    border-radius: 12px;
+    align-self:baseline;
+    
+}
 .img-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     height: 300px; 
 }
@@ -188,7 +214,7 @@ em {
     background-color: #3882F6;
     height: auto;
     width: 1000px;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 50px;
     margin: 50px auto;
     flex: 1 1 auto;
