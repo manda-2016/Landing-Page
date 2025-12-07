@@ -131,6 +131,7 @@ h1 {
 
 #small-dog {
     height: 200px;
+    width: 120px;
     border: solid 3px #3882F6;;
     border-radius: 12px;
 
@@ -138,6 +139,7 @@ h1 {
 
 #large-dog {
     height: 200px;
+    width: 120px;
     border: solid 3px #3882F6;;
     border-radius: 12px;
     
@@ -145,17 +147,18 @@ h1 {
 
 #dog-bed {
     height: 200px;
+    width: 120px;
     border: solid 3px #3882F6;;
     border-radius: 12px;
    
 }
 
 #sweater {
-    display:flex;
     height: 200px;
+    width: 120px;
     border: solid 3px #3882F6;;
     border-radius: 12px;
-    align-self:baseline;
+    align-self:flex-start;
     
 }
 .img-card {
